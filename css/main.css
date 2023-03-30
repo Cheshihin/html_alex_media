@@ -4,6 +4,7 @@ body{
 
 .main-logo-upper{
 	padding-left:15%;
+	max-width: 82%;
 }
 
 .main-upper-menu-item{
@@ -15,15 +16,15 @@ body{
 	line-height: 24px;
 }
 
- .menu {
+ .main-upper-menu-body {
    display: flex;
 }
 
-.header .menu ul {
+.header .main-upper-menu-body ul {
    display: flex;
 }
 
-.menu {
+.main-upper-menu-body {
   display: flex;
   flex-wrap: wrap; /*перенос строки */
   justify-content: space-between; /*прижимает содержимое к краям */
@@ -31,17 +32,23 @@ body{
 }
 
 
-.header .menu ul {
+.header .main-upper-menu-body ul {
   display: flex;
   list-style: none;
 }
 
-.header .menu ul li {
+.header .main-upper-menu-body ul li {
   margin: 20px 10px;
 }
 
-.header .menu ul a {
+.header .main-upper-menu-body ul a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+@media(max-width:1165px){
+	.main-upper-menu{
+		/*display:none;*/
+	}
 }
