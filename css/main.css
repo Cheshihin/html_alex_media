@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+}
+
+.main-logo-upper{
+	padding-left:15%;
+}
+
+.main-upper-menu-item{
+	color: white;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+ .menu {
+   display: flex;
+}
+
+.header .menu ul {
+   display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .menu ul li {
+  margin: 20px 10px;
+}
+
+.header .menu ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
