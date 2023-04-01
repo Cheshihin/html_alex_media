@@ -2,6 +2,12 @@ body{
 	background-color: black;
 }
 
+header.main-header{
+	z-index: 100;
+	background: black;
+	position: relative;
+}
+
 .main-logo-upper{
 	padding-left:15%;
 	max-width: 82%;
@@ -20,7 +26,7 @@ body{
    display: flex;
 }
 
-.header .main-upper-menu-body ul {
+.main-header .main-upper-menu-body ul {
    display: flex;
 }
 
@@ -32,16 +38,16 @@ body{
 }
 
 
-.header .main-upper-menu-body ul {
+.main-header .main-upper-menu-body ul {
   display: flex;
   list-style: none;
 }
 
-.header .main-upper-menu-body ul li {
+.main-header .main-upper-menu-body ul li {
   margin: 20px 10px;
 }
 
-.header .main-upper-menu-body ul a {
+.main-header .main-upper-menu-body ul a {
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -52,3 +58,25 @@ body{
 		/*display:none;*/
 	}
 }
+
+.upper-left-text{
+	width: 55%;
+	height: 900px;
+	z-index: 50;
+}
+
+.upper-gradient-part{
+	width: 75%;
+	height: 50%;
+	background: linear-gradient(93.58deg, #00AA30 0%, #00D03A 100%);
+	filter: blur(300px);
+	z-index: 50;
+}
+
+.upper-left-points{
+	position: absolute;
+	left: 25%;
+	top: 0%;
+	z-index: 50;
+}
+
