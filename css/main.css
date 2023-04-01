@@ -61,7 +61,7 @@ header.main-header{
 
 .upper-left-text{
 	width: 55%;
-	height: 900px;
+	height: 650px;
 	z-index: 50;
 }
 
@@ -87,7 +87,7 @@ header.main-header{
 	z-index: 60;
 	background: black;
 	width: 27%;
-	height: 33%;
+	height: 22%;
 }
 
 .title-text{
