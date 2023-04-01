@@ -111,6 +111,22 @@ header.main-header{
 	margin-top: 25px;
 }
 
+.order-green-button{
+	padding: 12px 24px 14px;
+	gap: 10px;
+	background: linear-gradient(93.58deg, #00AA30 0%, #00D03A 100%);
+	border-radius: 8px;
+	position: absolute;
+	left: 32%;
+	top: 45%;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
 @media(max-width: 1024px){
 	.upper-left-points{
 		display: none;
