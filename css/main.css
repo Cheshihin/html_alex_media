@@ -2,6 +2,18 @@ body{
 	background-color: black;
 }
 
+@font-face {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       /* Если не получилось, загрузит woff2 */
+       url("fonts/AluminiSans/AlumniSans-Thin.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("fonts/AluminiSans/AlumniSans-Thin.woff") format("woff");
+}
+
 header.main-header{
 	z-index: 100;
 	background: black;
@@ -14,6 +26,16 @@ header.main-header{
 }
 
 .main-upper-menu-item{
+	color: white;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+.main-upper-menu-item>ul>a{
 	color: white;
 	font-family: 'Alumni Sans';
 	font-style: normal;
@@ -84,10 +106,9 @@ header.main-header{
 	position: absolute;
 	left: 32%;
 	top: 20%;
-	z-index: 60;
-	background: black;
-	width: 27%;
-	height: 22%;
+	z-index: 40;
+	width: 28%;
+	height: 30%;
 }
 
 .title-text{
@@ -118,7 +139,7 @@ header.main-header{
 	border-radius: 8px;
 	position: absolute;
 	left: 32%;
-	top: 45%;
+	top: 42%;
 	font-family: 'Alumni Sans';
 	font-style: normal;
 	font-weight: 800;
