@@ -80,3 +80,42 @@ header.main-header{
 	z-index: 50;
 }
 
+.upper-left-text-block{
+	position: absolute;
+	left: 32%;
+	top: 20%;
+	z-index: 60;
+	background: black;
+	width: 27%;
+	height: 33%;
+}
+
+.title-text{
+	position: relative;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+.body-text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 140%;
+	color: #FFFFFF;
+	word-wrap: break-all;
+	margin-top: 25px;
+}
+
+@media(max-width: 1024px){
+	.upper-left-points{
+		display: none;
+	}
+}
+
+
+
