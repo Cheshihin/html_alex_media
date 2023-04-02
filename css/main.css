@@ -7,7 +7,7 @@ body{
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("Roboto"),
+  src: local("Alumini Sans"),
        /* Если не получилось, загрузит woff2 */
        url("fonts/AluminiSans/AlumniSans-Thin.woff2") format("woff2"),
        /* Если браузер не поддерживает woff2, загрузит woff */
@@ -58,6 +58,8 @@ header.main-header{
   justify-content: space-between; /*прижимает содержимое к краям */
   align-items: center; /*выравнивает элементы по центру на вертикальной */
 }
+
+
 
 
 .main-header .main-upper-menu-body ul {
@@ -171,6 +173,54 @@ header.main-header{
 	top: -4%;
 	left:60%;
 	z-index: 40;
+}
+
+ .second-line-items-body {
+   display: flex;
+}
+
+.second-line-items-body ul {
+   display: flex;
+}
+
+.second-line-items-body {
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+.second-line-item>ul>a{
+	color: white;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.second-line-item>ul>a{
+	color: white;
+	font-family: 'Alumni Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.second-line-items-body ul {
+  display: flex;
+  list-style: none;
+}
+
+.second-line-items-body ul li {
+  margin: 20px 10px;
+}
+
+.second-line-items-body ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
 @media(max-width: 1024px){
