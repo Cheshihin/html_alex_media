@@ -175,6 +175,9 @@ header.main-header{
 	z-index: 40;
 }
 
+
+
+
  .second-line-items-body {
    display: flex;
 }
@@ -190,6 +193,7 @@ header.main-header{
   align-items: center; /*выравнивает элементы по центру на вертикальной */
 }
 
+/*
 .second-line-item>ul>a{
 	color: white;
 	font-family: 'Alumni Sans';
@@ -198,7 +202,9 @@ header.main-header{
 	font-size: 20px;
 	line-height: 24px;
 }
+*/
 
+/*
 .second-line-item>ul>a{
 	color: white;
 	font-family: 'Alumni Sans';
@@ -207,6 +213,7 @@ header.main-header{
 	font-size: 20px;
 	line-height: 24px;
 }
+*/
 
 .second-line-items-body ul {
   display: flex;
@@ -214,14 +221,23 @@ header.main-header{
 }
 
 .second-line-items-body ul li {
-  margin: 20px 10px;
+	margin: 20px 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 140%;
+	/* or 34px */
+	color: #FFFFFF;
 }
 
+/*
 .second-line-items-body ul a {
   text-decoration: none;
   font-weight: bold;
   color: white;
 }
+*/
 
 @media(max-width: 1024px){
 	.upper-left-points{
