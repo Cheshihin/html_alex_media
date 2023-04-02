@@ -129,7 +129,7 @@ header.main-header{
 	font-size: 17px;
 	line-height: 140%;
 	color: #FFFFFF;
-	word-wrap: break-all;
+	
 	margin-top: 25px;
 }
 
@@ -149,11 +149,6 @@ header.main-header{
 	color: #FFFFFF;
 }
 
-@media(max-width: 1024px){
-	.upper-left-points{
-		display: none;
-	}
-}
 
 .upper-right-text{
 	width: 60%;
@@ -168,5 +163,24 @@ header.main-header{
 	margin-left: 25%;
 }
 
+@media(max-width: 1024px){
+	.upper-left-points{
+		display: none;
+	}
+	
+	.upper-right-image{
+		width: 73%;
+	}
+	
+	.upper-left-text-block{
+		left: 2%;
+		top:20%;
+		width: 100%;
+	}
+	
+	.body-text{
+		width: 50%;
+	}	
 
+}
 
