@@ -82,9 +82,10 @@ header.main-header{
 }
 
 .upper-left-text{
-	width: 55%;
+	width: 40%;
 	height: 650px;
 	z-index: 50;
+	display: inline-block;
 }
 
 .upper-gradient-part{
@@ -97,14 +98,14 @@ header.main-header{
 
 .upper-left-points{
 	position: absolute;
-	left: 25%;
+	left: 18%;
 	top: 0%;
 	z-index: 50;
 }
 
 .upper-left-text-block{
 	position: absolute;
-	left: 32%;
+	left: 25%;
 	top: 20%;
 	z-index: 40;
 	width: 28%;
@@ -137,9 +138,9 @@ header.main-header{
 	gap: 10px;
 	background: linear-gradient(93.58deg, #00AA30 0%, #00D03A 100%);
 	border-radius: 8px;
-	position: absolute;
-	left: 32%;
-	top: 42%;
+	position: relative;
+	margin-left: 0%;
+	margin-top: 20px;
 	font-family: 'Alumni Sans';
 	font-style: normal;
 	font-weight: 800;
@@ -152,6 +153,19 @@ header.main-header{
 	.upper-left-points{
 		display: none;
 	}
+}
+
+.upper-right-text{
+	width: 60%;
+	height: 650px;
+	z-index: 50;
+	display: inline-block;
+	float: right;
+}
+
+.upper-right-image{
+	width: 48%;
+	margin-left: 25%;
 }
 
 
