@@ -195,7 +195,12 @@ header .main-upper-menu{
 }
 
 
-
+.second-line-items{
+	position: relative;
+	top: -90px;
+	left: 15%;
+	max-width: 60%;
+}
 
  .second-line-items-body {
    display: flex;
@@ -244,11 +249,26 @@ header .main-upper-menu{
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 24px;
-	line-height: 140%;
+	font-size: 18px;
+	line-height: 10%;
 	/* or 34px */
 	color: #FFFFFF;
 }
+.second-line-items-body ul li {
+	margin: 20px 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	/* or 34px */
+	color: #FFFFFF;
+}
+
+.second-line-item>img{
+	float: left;
+}
+
 
 /*
 .second-line-items-body ul a {
